@@ -14,11 +14,7 @@ export function Banner() {
         />
 
         <Flex direction="column" w={470} ml="12.5rem">
-          <Text
-          color="white.700"
-            fontSize={"4xl"}
-            fontWeight="bold"
-          >
+          <Text color="white.700" fontSize="4xl" fontWeight="700">
             5 Continentes, infinitas possibilidades.
           </Text>
           <Text fontSize="lg" mt="20px" color="white.700">
