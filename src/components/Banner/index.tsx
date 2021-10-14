@@ -11,7 +11,7 @@ export function Banner() {
         <Image
           src="/images/background.png"
           alt="background"
-          minW={{ base: "200%", md: "100%" }}
+          minW="100%"
           minH="100%"
           position="absolute"
           zIndex={-1}
@@ -27,16 +27,21 @@ export function Banner() {
             fontSize={{ base: "xl", md: "4xl" }}
             fontWeight={{ base: "500", md: "700" }}
           >
-            5 Continentes, <Text display={{base: 'inline-block', md: 'inline'}}>infinitas possibilidades.</Text>
+            5 Continentes,
+            <Text display={{ base: "inline-block", md: "inline" }}>
+              infinitas possibilidades.
+            </Text>
           </Text>
-          <Text
-            fontSize={{ base: "sm", md: "lg" }}
-            fontWeight="400"
-            mt="20px"
-            color="white.700"
-          >
-            Chegou a hora de tirar do papel a viagem que você sempre sonhou.
-          </Text>
+
+          <Box>
+            <Text
+              fontSize={{ base: "sm", md: "lg" }}
+              mt="20px"
+              color="white.700"
+            >
+              Chegou a hora de tirar do papel a viagem que você sempre sonhou.
+            </Text>
+          </Box>
         </Flex>
 
         <Box>
