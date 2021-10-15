@@ -1,4 +1,4 @@
-import { Header } from "@/components/Header";
+import { Header } from "@/components/shared/Header";
 import { Box, Flex, Grid, HStack, Image, Text } from "@chakra-ui/react";
 
 export default function Europe() {

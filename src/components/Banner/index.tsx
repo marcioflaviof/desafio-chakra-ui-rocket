@@ -29,7 +29,7 @@ export function Banner() {
           >
             5 Continentes,
             <Text display={{ base: "inline-block", md: "inline" }}>
-              infinitas possibilidades.
+            {" "}infinitas possibilidades.
             </Text>
           </Text>
 
